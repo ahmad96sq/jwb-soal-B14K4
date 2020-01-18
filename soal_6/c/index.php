@@ -54,7 +54,7 @@
                     <td><?=$p[2];?></td>
                     <td>Rp. <?=$p[3];?></td>
                     <td>
-                        <a class="edit" href="edit.php?id=<?=$p["id"];?>"><img src="img/edit.png" alt="Edit"></a> |
+                        <a class="edit" href="edit.php?id=<?=$p["id"];?>"><img src="img/edit.png" alt="Edit"></a> 
                         <a class="delete" href="delete.php?id=<?=$p["id"];?>"><img src="img/bin.png" alt="Delete"></a> 
                     </td>
                 </tr>
