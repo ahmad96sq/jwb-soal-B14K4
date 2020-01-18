@@ -1,0 +1,12 @@
+SELECT cashier.name, product.name, category.name, product.price 
+FROM product LEFT JOIN cashier ON product.id_cashier=cashier.id 
+LEFT JOIN category ON product.id_category=category.id;
+
++----------------+-------------------+-------+-------+
+| name           | name              | name  | price |
++----------------+-------------------+-------+-------+
+| Pevita Pearce  | Latte             | Drink | 10000 |
+| Raisa Andriana | Cake              | Food  | 20000 |
+| Nama Kamu      | Makanan Favoritmu | Food  | 45000 |
++----------------+-------------------+-------+-------+
+3 rows in set (0.00 sec)
